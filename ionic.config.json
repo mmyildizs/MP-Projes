@@ -1,0 +1,7 @@
+{
+  "name": "MP-Projes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

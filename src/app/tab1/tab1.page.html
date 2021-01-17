@@ -1,0 +1,63 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Kilo Ver
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item>
+      <ion-label>Cinsiyet:</ion-label>
+      <ion-select interface="action-sheet" cancel-text="Çık" [(ngModel)]="cinsiyetInput">
+        <ion-select-option><ion-label>Erkek</ion-label></ion-select-option>
+        <ion-select-option><ion-label>Kadın</ion-label></ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Yaş:</ion-label>
+      <ion-input inputmode="numeric" [(ngModel)]="yasInput"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Boy:</ion-label>
+      <ion-input inputmode="numeric" [(ngModel)]="boyInput"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Kilo:</ion-label>
+      <ion-input inputmode="numeric" [(ngModel)]="kiloInput"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Aktiflik:</ion-label>
+      <ion-select interface="action-sheet" cancel-text="Çık" [(ngModel)]="aktiflikInput">
+        <ion-select-option><ion-label>Hareketsiz</ion-label></ion-select-option>
+        <ion-select-option><ion-label>Az Aktif(1-2 gün)</ion-label></ion-select-option>
+        <ion-select-option><ion-label>Orta Aktif(3 gün)</ion-label></ion-select-option>
+        <ion-select-option><ion-label>Çok Aktif(4-5 gün)</ion-label></ion-select-option>
+        <ion-select-option><ion-label>Sportif</ion-label></ion-select-option>
+      </ion-select>
+    </ion-item>
+    
+  </ion-list>
+
+  <ion-row style="height:40px"></ion-row>
+
+  <section class="full-width">
+    <ion-button (click)="onButton()" expand="full" color="secondary">Hesapla</ion-button>
+  </section>
+
+  <ion-row style="height:40px"></ion-row>
+
+  <ion-label class="gunkalV"><div class="gk">Günlük Kalori</div></ion-label>
+
+  <ion-label class="calValues"><div class="g">{{calValue}} cal</div></ion-label>
+
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Kilo Ver</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
+
+
+
