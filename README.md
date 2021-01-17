@@ -54,7 +54,7 @@ Cinsiyete, kiloya , yaşa , boya , aktiflik durumuna göre kaç kalori alması g
 
 # Sonuç:
 
-![mpodev (2)](https://user-images.githubusercontent.com/49499843/104854212-888c9800-5916-11eb-84d1-9d68c6c43a3a.gif
+![mpodev (2)](https://user-images.githubusercontent.com/49499843/104854212-888c9800-5916-11eb-84d1-9d68c6c43a3a.gif)
 
 
 
