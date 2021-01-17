@@ -6,9 +6,16 @@ Bölüm: Bilgisayar Mühendisliği
 
 Üniversite-Fakülte: Kocaeli Üniversitesi-Mühendislik
 
-Ders: İnternet Programcılığı - Uğur YILDIZ
+Ders: Mobil Programlama - Uğur YILDIZ
 
 # MP-Projes
+
+Cinsiyete, kiloya , yaşa , boya , aktiflik durumuna göre kaç kalori alması gerektiğini göstermesini sağlayan bir android uygulaması yapılmıştır.
+
+3 seçenek vardır : Kilo Al,Kilo Ver, Formunu Koru
+
+# Kurulum 
+
 
 
 
