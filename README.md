@@ -22,6 +22,10 @@ Cinsiyete, kiloya , yaşa , boya , aktiflik durumuna göre kaç kalori alması g
 
 3)MP-Projes-master klasörün içindeki MP-Projes-master klasörü desktopa atılmalıdır.(yoksa hata verecektir)
 
+![7](https://user-images.githubusercontent.com/49499843/104856055-4ae13c80-5921-11eb-8d06-9cfeb33f5cea.jpg)
+
+![8](https://user-images.githubusercontent.com/49499843/104856058-4f0d5a00-5921-11eb-87a7-eabfea94a620.jpg)
+
 3)Visual Studio Code'de MP-Projes-master klasörü açılır.
 
 4)Terminala girilir.
